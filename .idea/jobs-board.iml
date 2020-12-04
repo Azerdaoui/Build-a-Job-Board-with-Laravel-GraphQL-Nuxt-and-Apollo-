@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/jobs/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/jobs/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/jobs/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/jobs/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/haydenpierce/class-finder" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/webonyx/graphql-php" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/mll-lab/graphql-php-scalars" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/mll-lab/laravel-graphql-playground" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/thecodingmachine/safe" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/nuwave/lighthouse" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/spatie/regex" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/jobs/vendor/symfony/polyfill-intl-normalizer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
