@@ -6,13 +6,13 @@
         <div class="-mx-4 flex items-center flex-wrap"> 
             <a href="" class="mx-4" exact-active-class="text-blue-500">Post a job</a>
 
-            <template>
-                <span class="mx-4 font-bold" v-if="$auth.user">{{ $auth.user.name }} - Name </span>
+            <template v-if="$auth.user">
+                <span class="mx-4 font-bold" >{{ $auth.user.name }} </span>
                 <a href="" class="mx-4" exact-active-class="text-blue-500">Manage listings</a>
                 <a @click.prevent="logout" href="" class="mx-4" exact-active-class="text-blue-500">Logout</a>
             </template>
 
-            <template>
+            <template v-if="!$auth.user">
                 <nuxt-link 
                     :to="{ name: 'login' }" href="" 
                     class="mx-4" exact-active-class="text-blue-500">

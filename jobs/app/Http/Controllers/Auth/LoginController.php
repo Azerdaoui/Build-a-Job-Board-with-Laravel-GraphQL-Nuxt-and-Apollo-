@@ -2,17 +2,22 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Auth\AuthenticationException;
 
 class LoginController extends Controller
 {
     public function __invoke(Request $request)
     {
-        if(!auth()->guard()->attempt($request->only('email', 'password')))
+        if (Auth::attempt($request->only('email', 'password'))) 
         {
-            throw new AuthenticationException();
+            $request->session()->regenerate();
+
+            return Auth::user();
         }
+
+        throw new AuthenticationException();
     }
 }

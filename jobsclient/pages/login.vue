@@ -27,6 +27,7 @@ export default {
     data()
     {
         return {
+            error: null,
             form: {
                 email:'',
                 password:''
@@ -36,17 +37,43 @@ export default {
 
     methods: {
         async login() {
-            try
+            this.error = {};
+            
+            try 
             {
-                await this.$auth.loginWith('local', { data: this.form })
+                
+                let response = await this.$auth.loginWith('local', { data: {
+                                                                    'email': this.form.email,
+                                                                    'password': this.form.password,
+                                                                } });
+                
 
-                // this.$auth.$state.user = this.$axios.$get('/api/user');
-            }
-            catch(error)
+                this.$auth.setUser(response.data)
+                // this.$store.state.auth.loggedIn = true
+
+            } 
+            catch (err)
             {
-                //
+            
+                this.error = err;
+                
+                console.log(this.error)
             }
-        }
+        },
+        // async login() {
+        //     try
+        //     {
+        //         let response = await this.$auth.loginWith('laravelSanctum', { data: this.form })
+
+        //         await this.$auth.fetchUser()
+                
+        //         console.log(this.$auth, response)
+        //     }
+        //     catch(error)
+        //     {
+        //         console.log(error)
+        //     }
+        // }
     },
 
     mounted() {
