@@ -6,7 +6,6 @@
         </div>
 
         <div class="mt-10">
-            {{ $auth.user }}
             Jobs index !
         </div>
     </div>

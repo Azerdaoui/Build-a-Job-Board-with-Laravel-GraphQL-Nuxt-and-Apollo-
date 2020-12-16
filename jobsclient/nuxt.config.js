@@ -33,33 +33,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/auth-next'
+    '@nuxtjs/auth'
   ],
-
-  // auth: {
-  //   redirect: {
-  //     login: '/login',
-  //     logout: '/',
-  //     callback: '/login',
-  //     home: '/'
-  //   },
-  //   strategies: {
-  //     local: {
-  //       endpoints: {
-  //         login: { url: '/api/login', method: 'post', propertyName: false },
-  //         user: { url: '/api/user', method: 'get', propertyName: false }
-  //       },
-  //       tokenRequired: false,
-  //       tokenType: false
-  //     }
-  //   },
-  //   localStorage: false
-  // },
 
   auth: {
     strategies: {
       local: {
-        autoFetchUser: false,
         endpoints: {
           login: { url: '/api/login', method: 'post', propertyName: false },
           logout: { url: '/api/logout', method: 'post' },

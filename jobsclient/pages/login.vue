@@ -2,7 +2,7 @@
     <div class="flex items-center mt-10">
         <form class="w-4/12" @submit.prevent="login">
             <h2 class="mb-4 text-2xl font-bold">Login</h2>
-            {{ form }}
+
             <div class="mb-4">
                 <label for="email" class="inline-block mb-1 font-medium">Email</label>
                 <input v-model="form.email" type="text" 
@@ -36,44 +36,19 @@ export default {
     },
 
     methods: {
-        async login() {
-            this.error = {};
-            
-            try 
-            {
-                
-                let response = await this.$auth.loginWith('local', { data: {
-                                                                    'email': this.form.email,
-                                                                    'password': this.form.password,
-                                                                } });
-                
+        login () {
+            // this.$axios.$get('/sanctum/csrf-cookie').then(response => {
+                try 
+                {
+                    this.$auth.loginWith('local', { data: this.form })
 
-                this.$auth.setUser(response.data)
-                // this.$store.state.auth.loggedIn = true
-
-            } 
-            catch (err)
-            {
-            
-                this.error = err;
-                
-                console.log(this.error)
-            }
-        },
-        // async login() {
-        //     try
-        //     {
-        //         let response = await this.$auth.loginWith('laravelSanctum', { data: this.form })
-
-        //         await this.$auth.fetchUser()
-                
-        //         console.log(this.$auth, response)
-        //     }
-        //     catch(error)
-        //     {
-        //         console.log(error)
-        //     }
-        // }
+                } 
+                catch (e) 
+                {
+                    console.log
+                }
+            // })
+        }
     },
 
     mounted() {
